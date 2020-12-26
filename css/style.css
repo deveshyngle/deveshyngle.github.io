@@ -1,6 +1,48 @@
 .logo-center {
 	display: block;
- 	margin-left: auto;
- 	margin-right: auto;
- 	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+.icon-bar {
+	position: fixed;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.icon-bar a {
+	display: block;
+	text-align: center;
+	padding: 15px;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 20px;
+}
+.icon-bar a:hover {
+	background-color: #000;
+}
+.twitter {
+	background: #55ACEE;
+	color: white;
+}
+.linkedin {
+	background: #007bb5;
+	color: white;
+}
+.youtube {
+	background: #bb0000;
+	color: white;
+}
+.instagram {
+	background: #8a3ab9;
+	color: white;
+}
+.github {
+	background: #6e5494;
+	color: white;
+}
+.reddit {
+	background: #ff5700;
+	color: white;
 }
