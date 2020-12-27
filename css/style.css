@@ -12,6 +12,14 @@ hr {
 	max-width: 80%;
 	height: auto;
 }
+.img-left {
+	display: block;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: auto;
+	max-width: 35%;
+	height: auto;
+}
 .icon-bar {
 	position: fixed;
 	top: 50%;
